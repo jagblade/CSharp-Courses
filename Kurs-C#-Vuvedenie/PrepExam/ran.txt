@@ -1,0 +1,720 @@
+using System;
+
+namespace T06Substitute
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int k = int.Parse(Console.ReadLine());
+            int l = int.Parse(Console.ReadLine());
+            int m = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());
+            int counter = 0;
+
+            for (int digit1 = k; digit1 <= 8; digit1++)
+            {
+                for (int digit2 = 9; digit2 >= l; digit2--)
+                {
+                    for (int digit3 = m; digit3 <= 8; digit3++)
+                    {
+                        for (int digit4 = 9; digit4 >= n; digit4--)
+                        {
+                            if (digit1 % 2 == 0 && digit3 % 2 == 0 && digit2 % 2 == 1 && digit4 % 2 == 1)
+                            {
+                                if (digit1 == digit3 && digit2 == digit4)
+                                {
+                                    Console.WriteLine("Cannot change the same player.");
+                                }
+                                else
+                                {
+                                    Console.WriteLine($"{digit1}{digit2} - {digit3}{digit4}");
+                                    counter++;
+                                    if (counter == 6)
+                                    {
+                                        return;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+==========================================================
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+ 
+namespace Practice
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double fats = int.Parse(Console.ReadLine());
+            double proteins = int.Parse(Console.ReadLine());
+            double carbs = int.Parse(Console.ReadLine());
+            double calories = int.Parse(Console.ReadLine());
+            double water = int.Parse(Console.ReadLine());
+ 
+            double fatsGR = ((fats/100)*2500)/ 9;
+            double proteinGR = ((proteins / 100) * 2500) / 4;
+            double carbGR = ((carbs / 100) * 2500) / 4;
+ 
+            double weight = fatsGR + proteinGR + carbGR;
+            double weightPerGr = 2500 / weight;
+ 
+            double oneGR = weightPerGr * (1 - water / 100);
+            Console.WriteLine($"{oneGR:F4}");
+ 
+ 
+        }
+    }
+}
+==========================================================
+using System;
+
+namespace GrandpaStavri
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            double kol = 0;
+            double gr = 0;
+            double allKol = 0;
+            double gradus = 0;
+            double allGr = 0;
+            double totalGr = 0;
+
+            for (int i = 1; i <= n; i++)
+            {
+                kol = double.Parse(Console.ReadLine());
+                gr = double.Parse(Console.ReadLine());
+                gradus = kol * gr;
+                allKol += kol;
+                allGr += gradus;
+            }
+            totalGr = allGr / allKol;
+            Console.WriteLine("Liter: {0:f2}", allKol);
+            Console.WriteLine("Degrees: {0:f2}", totalGr);
+
+            if (totalGr < 38)
+            {
+                Console.WriteLine("Not good, you should baking!");
+            }
+            else if (totalGr >= 38 && totalGr <= 42)
+            {
+                Console.WriteLine("Super!");
+            }
+            else if (totalGr > 42)
+            {
+                Console.WriteLine("Dilution with distilled water!");
+            }
+        }
+    }
+}
+==========================================================
+System;
+
+namespace _6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            bool ispenq = false;
+
+
+            for (int a = 1; a <= 9; a++)
+            {
+                for (int b = 9; b >= a; b--)
+                {
+                    for (int c = 0; c <= 9; c++)
+                    {
+                        for (int d = 9; d >= a; d--)
+                        {
+                            int multi = a * b * c * d;
+                            int sum = a + b + c + d;
+                            if (sum == multi && n % 10 == 5)
+                            {
+                                Console.WriteLine($"{a}{b}{c}{d}");
+                                ispenq = false;
+                                return;
+                            }
+                            else if (multi / sum == 3 && n % 3 == 0)
+                            {
+                                Console.WriteLine($"{d}{c}{b}{a}");
+                                ispenq = false;
+                                return;
+
+                            }
+                            else
+                            {
+                                ispenq = true;
+                            }
+
+
+                        }
+                    }
+
+                }
+            }
+            if (ispenq)
+            {
+                Console.WriteLine("Nothing found");
+            }
+
+        }
+    }
+}
+==========================================================
+using System;
+
+namespace DeerOFsanta
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int daysWithoutSanta = int.Parse(Console.ReadLine());
+            int leftoverFoodKg = int.Parse(Console.ReadLine());
+            double foodFirstDeer = double.Parse(Console.ReadLine());
+            double foodSecondDeer = double.Parse(Console.ReadLine());
+            double foodThirdDeer = double.Parse(Console.ReadLine());
+
+            foodFirstDeer = daysWithoutSanta * foodFirstDeer;
+            foodSecondDeer = daysWithoutSanta * foodSecondDeer;
+            foodThirdDeer = daysWithoutSanta * foodThirdDeer;
+            double remainKg = 0;
+            double lackingKg = 0;
+            double totalFood = foodFirstDeer + foodSecondDeer + foodThirdDeer;
+
+            if (totalFood < leftoverFoodKg)
+            {
+                remainKg = leftoverFoodKg - totalFood;
+                Console.WriteLine($"{Math.Floor(remainKg)} kilos of food left.");
+            }
+            else
+            {
+                lackingKg = totalFood - leftoverFoodKg;
+                Console.WriteLine($"{Math.Abs(Math.Ceiling(lackingKg))} more kilos of food are needed.");
+            }
+        }
+    }
+}
+
+==========================================================
+
+            //---------------------------- ?????? 2
+            int otsustveniDni = int.Parse(Console.ReadLine());
+            int kgOstavenaHrana = int.Parse(Console.ReadLine());
+            double hrana1 = double.Parse(Console.ReadLine()) * otsustveniDni;
+            double hrana2 = double.Parse(Console.ReadLine()) * otsustveniDni;
+            double hrana3 = double.Parse(Console.ReadLine()) * otsustveniDni;
+
+            double nujnaHrana = hrana1 + hrana2 + hrana3;
+
+            if(kgOstavenaHrana >= nujnaHrana)
+            {
+                Console.WriteLine($"{Math.Floor(kgOstavenaHrana - nujnaHrana)} kilos of food left.");
+            }
+            else
+            {
+                Console.WriteLine($"{Math.Ceiling(nujnaHrana - kgOstavenaHrana)} more kilos of food are needed.");
+            }
+
+==========================================================
+using System;
+
+namespace Test
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int daysWithoutSanta = int.Parse(Console.ReadLine());
+            int leftoverFoodKg = int.Parse(Console.ReadLine());
+            double foodFirstDeer = double.Parse(Console.ReadLine());
+            double foodSecondDeer = double.Parse(Console.ReadLine());
+            double foodThirdDeer = double.Parse(Console.ReadLine());
+
+            foodFirstDeer = daysWithoutSanta * foodFirstDeer;
+            foodSecondDeer = daysWithoutSanta * foodSecondDeer;
+            foodThirdDeer = daysWithoutSanta * foodThirdDeer;
+            double remainKg = 0;
+            double lackingKg = 0;
+            double totalFood = foodFirstDeer + foodSecondDeer + foodThirdDeer;
+
+            if (totalFood <= leftoverFoodKg)
+            {
+                remainKg = leftoverFoodKg - totalFood;
+                Console.WriteLine($"{Math.Floor(remainKg)} kilos of food left.");
+            }
+            else
+            {
+                lackingKg = leftoverFoodKg - totalFood;
+                Console.WriteLine($"{Math.Abs(Math.Ceiling(lackingKg))} more kilos of food are needed.");
+            }
+        }
+    }
+}
+====================================================
+using System;
+
+namespace ConsoleApp14
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double cena = double.Parse(Console.ReadLine());
+            double broiLubovPosl = double.Parse(Console.ReadLine());
+            double broiRozi = double.Parse(Console.ReadLine());
+            double broiKluchodurjatli = double.Parse(Console.ReadLine());
+            double broiKarikaturi = double.Parse(Console.ReadLine());
+            double broiKusmeti = double.Parse(Console.ReadLine());
+            double artikuls = broiLubovPosl + broiRozi + broiKluchodurjatli + broiKarikaturi + broiKusmeti;
+            double sum = broiLubovPosl * 0.60 + broiRozi * 7.20 + broiKluchodurjatli * 3.60 + broiKarikaturi * 18.20 + broiKusmeti * 22;
+            sum = sum * 0.35;
+            double jsum = sum * 0.10;
+            double pechalba = sum - jsum;
+            double ost = pechalba - cena;
+            if (artikuls >=25)
+            {
+
+                Console.WriteLine($"Yes! { ost:f2} lv left.");
+            }
+            else
+            {
+
+                Console.WriteLine($"Not enough money! {ost:F2} lv needed.");
+
+
+
+
+        }
+    }
+}
+}
+===========================================================
+
+int students = int.Parse(Console.ReadLine());
+            int counter5 = 0;
+            int counter4 = 0;
+            int counter3 = 0;
+            int counter2 = 0;
+            double average = 0;
+
+            for (int i = 0; i < students; i++)
+            {
+                double grade = double.Parse(Console.ReadLine());
+                average += grade;
+
+                if (grade>=5.00)
+                {
+                    counter5++;
+                }
+                else if (grade>=4.00 && grade<=4.99 )
+                {
+                    counter4++; 
+                }
+                else if (grade >= 3 && grade <= 3.99)
+                {
+                    counter3++;
+                }
+                else if (grade <3)
+                {
+                    counter2++;
+                }
+            }
+            Console.WriteLine($"Top students: {(counter5 / (double)students) * 100:f2}%");
+            Console.WriteLine($"Between 4.00 and 4.99: {(counter4 / (double)students) * 100:f2}%");
+            Console.WriteLine($"Between 3.00 and 3.99: {(counter3 / (double)students) * 100:f2}%");
+            Console.WriteLine($"Fail: {(counter2 / (double)students) * 100:f2}%");
+            Console.WriteLine($"Average: {average/students:f2}"
+==========================================================
+ExcursionCalculatorForum
+
+
+using System;
+
+namespace ExcursionCalculatorForum
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int tourists = int.Parse(Console.ReadLine());
+            string season = Console.ReadLine();
+            double pricePerTourist = 0;
+
+
+            if (season == "spring")
+            {
+                if (tourists > 5)
+                {
+                    pricePerTourist = 48;
+                }
+                else
+                {
+                    pricePerTourist = 50;
+                }
+            }
+            else if (season == "summer")
+            {
+                if (tourists > 5)
+                {
+                    pricePerTourist = 45;
+                }
+                else
+                {
+                    pricePerTourist = 48.50;
+                }
+            }
+            else if (season == "autumn")
+            {
+                if (tourists > 5)
+                {
+                    pricePerTourist = 49.50;
+                }
+                else
+                {
+                    pricePerTourist = 60;
+                }
+            }
+            else if (season == "winter")
+            {
+                if (tourists > 5)
+                {
+                    pricePerTourist = 85;
+                }
+                else
+                {
+                    pricePerTourist = 86;
+                }
+            }
+
+            double finalPrice = pricePerTourist * tourists;
+
+
+            if (season == "summer")
+            {
+                finalPrice *= .85;
+            }
+            else if (season == "winter")
+            {
+                finalPrice *= 1.08;
+            }
+
+
+            Console.WriteLine($"{finalPrice:F2} leva.");
+        }
+    }
+}
+
+
+==========================================================
+Hair Salon
+
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int cel = int.Parse(Console.ReadLine());
+            double pechalba = 0;
+            while (pechalba < cel)
+            {
+                string input = Console.ReadLine();
+                string inputs = Console.ReadLine();
+
+                if (input == "haircut")
+                {
+                    if (inputs == "mens")
+                    {
+                        pechalba += 15;
+                    }
+                    else if (inputs == "ladies")
+                    {
+                        pechalba += 20;
+
+                    }
+                    else if (inputs == "kids")
+                    {
+                        pechalba += 10;
+
+                    }
+                }
+                else if (input == "color")
+                {
+                    if (inputs == "touch up")
+                    {
+                        pechalba += 20;
+
+                    }
+                    else if (inputs == "full color")
+                    {
+                        pechalba += 30;
+
+                    }
+                }
+                if (pechalba >= cel)
+                {
+                    Console.WriteLine("You have reached your target for the day!");
+                    Console.WriteLine($"Earned money: { pechalba}lv.");
+                    break;
+                }
+                else if (input == "closed")
+                {
+                    Console.WriteLine($"Target not reached! You need { cel - pechalba}lv. more.");
+                    Console.WriteLine($"Earned money: { pechalba}lv.");
+                    break;
+                }
+            }
+        }
+    }
+}
+==========================================================
+using System;
+
+namespace exam
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double tshirt = double.Parse(Console.ReadLine());
+            double neededSum = double.Parse(Console.ReadLine());
+            double shorts = tshirt * 0.75;
+            double socs = shorts * 0.20;
+            double shoes = (tshirt + shorts) * 2.0;
+            double totalSum = tshirt+shorts + socs + shoes;
+            double discount = totalSum*0.15;
+            double discountedPrice = totalSum - discount;
+            double moneyNeeded = (neededSum - discountedPrice);
+            if (discountedPrice>=neededSum)
+            {
+                Console.WriteLine($"Yes, he will earn the world-cup replica ball!");
+                Console.WriteLine($"His sum is {discountedPrice:f2} lv.");
+            }
+            else
+            {
+                Console.WriteLine($"No, he will not earn the world-cup replica ball.");
+                Console.WriteLine( $"He needs {moneyNeeded:f2} lv. more.");
+            }
+        }
+    }
+}
+==========================================================
+Hair Salon
+using System;
+
+namespace ConsoleApp15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int cel = int.Parse(Console.ReadLine());
+            double pechalba = 0;
+            while (pechalba < cel)
+            {
+                string input = Console.ReadLine();
+                string inputs = Console.ReadLine();
+
+                if (input == "haircut")
+                {
+                    if (inputs == "mens")
+                    {
+                        pechalba += 15;
+                    }
+                    else if (inputs == "ladies")
+                    {
+                        pechalba += 20;
+
+                    }
+                    else if (inputs == "kids")
+                    {
+                        pechalba += 10;
+
+                    }
+                }
+                else if (input == "color")
+                {
+                    if (inputs == "touch up")
+                    {
+                        pechalba += 20;
+
+                    }
+                    else if (inputs == "full color")
+                    {
+                        pechalba += 30;
+
+                    }
+                }
+                if (pechalba >= cel)
+                {
+                    Console.WriteLine("You have reached your target for the day!");
+                    Console.WriteLine($"Earned money: { pechalba}lv.");
+                    break;
+                }
+                else if (input == "closed")
+                {
+                    Console.WriteLine($"Target not reached! You need { cel - pechalba}lv. more.");
+                    Console.WriteLine($"Earned money: { pechalba}lv.");
+                    break;
+                }
+            }
+        }
+    }
+}
+
+==========================================================
+using System;
+
+namespace exam
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double tshirt = double.Parse(Console.ReadLine());
+            double neededSum = double.Parse(Console.ReadLine());
+            double shorts = tshirt * 0.75;
+            double socs = shorts * 0.20;
+            double shoes = (tshirt + shorts) * 2.0;
+            double totalSum = tshirt+shorts + socs + shoes;
+            double discount = totalSum*0.15;
+            double discountedPrice = totalSum - discount;
+            double moneyNeeded = (neededSum - discountedPrice);
+            if (discountedPrice>=neededSum)
+            {
+                Console.WriteLine($"Yes, he will earn the world-cup replica ball!");
+                Console.WriteLine($"His sum is {discountedPrice:f2} lv.");
+            }
+            else
+            {
+                Console.WriteLine($"No, he will not earn the world-cup replica ball.");
+                Console.WriteLine( $"He needs {moneyNeeded:f2} lv. more.");
+            }
+        }
+    }
+}
+
+==========================================================
+using System;
+
+namespace DeerOFsanta
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double savingForDay = double.Parse(Console.ReadLine());
+            double winnings = double.Parse(Console.ReadLine());
+            double expenses = double.Parse(Console.ReadLine());
+            double giftPrice = double.Parse(Console.ReadLine());
+
+            double daysTillBirthday = 5;
+            double savedMoney = daysTillBirthday * savingForDay;
+            double wonMoney = daysTillBirthday * winnings;
+            double sum = savedMoney + wonMoney;
+            double expenses1 = sum - expenses;
+
+            if (expenses1 > giftPrice)
+            {
+                Console.WriteLine($"Profit: {(expenses1):F2} BGN, the gift has been purchased.");
+            }
+            else
+            {
+
+                Console.WriteLine($"Insufficient money: {(giftPrice - expenses1):F2} BGN.");
+            }
+        }
+    }
+}
+==========================================================
+Final competition
+
+using System;
+
+namespace EXAM03.FinalCompetition {
+    class Program {
+        static void Main(string[] args) {
+            int dancersQty = int.Parse(Console.ReadLine());
+            double points = double.Parse(Console.ReadLine());
+            string season = Console.ReadLine();
+            string location = Console.ReadLine();
+
+            double total = 0.0;
+
+            switch (location) {
+                case "Bulgaria": 
+                    total += points * dancersQty;
+                    if (season == "summer") { total *= 0.95; } 
+                    else { total *= 0.92; }
+                    break;
+                case "Abroad":
+                    total += (points * dancersQty) * 1.5;
+                    if (season == "summer") { total *= 0.9; } 
+                    else { total *= 0.85; }
+                    break;
+            }
+
+            double charity = total * 0.75;
+            total -= charity;
+            double moneyPerDancer = total / dancersQty;
+
+            Console.WriteLine($"Charity - {charity:f2}");
+            Console.WriteLine($"Money per dancer - {moneyPerDancer:f2}");
+        }
+    }
+}
+==========================================================
+Everest
+using System;
+
+namespace EXAM05.Everest {
+    class Program {
+        static void Main(string[] args) {
+            int startingMeters = 5364;
+            int metersToReach = 8848;
+            int days = 1;
+            string input = Console.ReadLine();
+
+            while (input != "END") {
+                if (input == "Yes") { days++; }
+                if (days > 5) { break; }
+
+                int metersClimbed = int.Parse(Console.ReadLine());
+                startingMeters += metersClimbed;
+
+                if (startingMeters >= metersToReach) {
+                    Console.WriteLine($"Goal reached for " +
+                        $"{days} days!");
+                    return;
+                }
+
+                input = Console.ReadLine();
+            }
+
+            Console.WriteLine($"Failed!\n{startingMeters}");
+        }
+    }
+}
+==========================================================
+==========================================================
+==========================================================

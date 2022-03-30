@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "09de0443-f3a2-4412-9561-b91d5d408579": {
+      "ProjectGuid": "09de0443-f3a2-4412-9561-b91d5d408579",
+      "DisplayName": "P04.PasswordValidator",
+      "ColorIndex": 0
+    },
+    "411c1d8f-8e74-425a-b284-ae0d2be3aa7e": {
+      "ProjectGuid": "411c1d8f-8e74-425a-b284-ae0d2be3aa7e",
+      "DisplayName": "P03.CharactersinRange",
+      "ColorIndex": 1
+    },
+    "600d5076-544a-4ba4-87c9-4a29892f6e7d": {
+      "ProjectGuid": "600d5076-544a-4ba4-87c9-4a29892f6e7d",
+      "DisplayName": "P02.VowelsCount",
+      "ColorIndex": 2
+    },
+    "32c42bf5-8514-462a-8f7a-807ff9341353": {
+      "ProjectGuid": "32c42bf5-8514-462a-8f7a-807ff9341353",
+      "DisplayName": "P01.SmallestOfThreeNumbers",
+      "ColorIndex": 3
+    },
+    "20ddf46b-b805-4a3b-a332-458ffc86a080": {
+      "ProjectGuid": "20ddf46b-b805-4a3b-a332-458ffc86a080",
+      "DisplayName": "P11.ArrayManipulator",
+      "ColorIndex": 4
+    },
+    "990d9872-f0cd-4109-b67c-ead17a63d8c5": {
+      "ProjectGuid": "990d9872-f0cd-4109-b67c-ead17a63d8c5",
+      "DisplayName": "P05.AddandSubtract",
+      "ColorIndex": 5
+    },
+    "5f3ca4a1-9e7b-4686-924b-ee85d087bbd0": {
+      "ProjectGuid": "5f3ca4a1-9e7b-4686-924b-ee85d087bbd0",
+      "DisplayName": "P07.NxNMatrix",
+      "ColorIndex": 6
+    },
+    "1411bb4f-ef7f-4a7f-ad6d-62b93494cbee": {
+      "ProjectGuid": "1411bb4f-ef7f-4a7f-ad6d-62b93494cbee",
+      "DisplayName": "P06.MiddleCharacters",
+      "ColorIndex": 7
+    },
+    "2d4aae9e-daf0-4126-baf8-ca393666744c": {
+      "ProjectGuid": "2d4aae9e-daf0-4126-baf8-ca393666744c",
+      "DisplayName": "P08.FactorialDivision",
+      "ColorIndex": 8
+    },
+    "da41d815-5298-46e7-ba0b-466d83d048dd": {
+      "ProjectGuid": "da41d815-5298-46e7-ba0b-466d83d048dd",
+      "DisplayName": "P09.PalindromeIntegers",
+      "ColorIndex": 9
+    },
+    "6fbbb2c6-de79-46cd-b727-346c21c65696": {
+      "ProjectGuid": "6fbbb2c6-de79-46cd-b727-346c21c65696",
+      "DisplayName": "10.TopNumber",
+      "ColorIndex": 10
+    }
+  },
+  "NextColorIndex": 11
+}

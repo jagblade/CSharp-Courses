@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f38bd85e-0193-41f9-980d-2d8d93297ec3": {
+      "ProjectGuid": "f38bd85e-0193-41f9-980d-2d8d93297ec3",
+      "DisplayName": "P01.ConvertMetersToKilometers",
+      "ColorIndex": 0
+    },
+    "f1452791-1f6c-44d6-ab1f-9acb68d589b7": {
+      "ProjectGuid": "f1452791-1f6c-44d6-ab1f-9acb68d589b7",
+      "DisplayName": "P02.PoundsToDollars",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

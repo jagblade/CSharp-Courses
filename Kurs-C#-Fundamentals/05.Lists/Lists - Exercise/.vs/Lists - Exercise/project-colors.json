@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0784749b-1d05-4df5-9ed6-bbba53cc74a6": {
+      "ProjectGuid": "0784749b-1d05-4df5-9ed6-bbba53cc74a6",
+      "DisplayName": "P01.Train",
+      "ColorIndex": 0
+    },
+    "0ce78a5b-4738-4a60-b133-e47242186bb0": {
+      "ProjectGuid": "0ce78a5b-4738-4a60-b133-e47242186bb0",
+      "DisplayName": "P02. Change List",
+      "ColorIndex": 1
+    },
+    "48095dfe-041e-45d4-9799-046247a2b60a": {
+      "ProjectGuid": "48095dfe-041e-45d4-9799-046247a2b60a",
+      "DisplayName": "P03.HouseParty",
+      "ColorIndex": 2
+    },
+    "39db1670-8fec-4701-a548-6d3801186819": {
+      "ProjectGuid": "39db1670-8fec-4701-a548-6d3801186819",
+      "DisplayName": "P04.ListOperations",
+      "ColorIndex": 3
+    },
+    "73cb1625-861b-418c-a3cb-2f538cd05b44": {
+      "ProjectGuid": "73cb1625-861b-418c-a3cb-2f538cd05b44",
+      "DisplayName": "P05.BombNumbers",
+      "ColorIndex": 4
+    },
+    "d9469cfb-8df1-4894-aedb-17c6b1b54473": {
+      "ProjectGuid": "d9469cfb-8df1-4894-aedb-17c6b1b54473",
+      "DisplayName": "P06.CardsGame",
+      "ColorIndex": 5
+    },
+    "2a8dd1c0-86c9-48c0-a735-3ebed6db00e0": {
+      "ProjectGuid": "2a8dd1c0-86c9-48c0-a735-3ebed6db00e0",
+      "DisplayName": "P07.AppendArrays",
+      "ColorIndex": 6
+    },
+    "0abd9c8e-e130-49d3-9602-bf29c1943b4e": {
+      "ProjectGuid": "0abd9c8e-e130-49d3-9602-bf29c1943b4e",
+      "DisplayName": "P08.AnonymousThreat",
+      "ColorIndex": 7
+    },
+    "41407034-7083-41eb-8408-cba62789e34c": {
+      "ProjectGuid": "41407034-7083-41eb-8408-cba62789e34c",
+      "DisplayName": "P09.PokemonDontGo",
+      "ColorIndex": 8
+    },
+    "bc4c5012-2592-474e-9857-3315575faa85": {
+      "ProjectGuid": "bc4c5012-2592-474e-9857-3315575faa85",
+      "DisplayName": "P10.SoftUniCoursePlanning",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}
