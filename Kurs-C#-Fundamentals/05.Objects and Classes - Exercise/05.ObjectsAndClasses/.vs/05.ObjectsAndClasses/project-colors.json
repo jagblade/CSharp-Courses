@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "70327bc9-4b28-4619-aa23-34cae56b9ede": {
+      "ProjectGuid": "70327bc9-4b28-4619-aa23-34cae56b9ede",
+      "DisplayName": "P04.Students",
+      "ColorIndex": 0
+    },
+    "51dec1d0-d48f-401d-9d5e-3089a0679990": {
+      "ProjectGuid": "51dec1d0-d48f-401d-9d5e-3089a0679990",
+      "DisplayName": "P05.TeamworkProjects",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
