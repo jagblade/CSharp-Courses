@@ -10,7 +10,22 @@
       "ProjectGuid": "51dec1d0-d48f-401d-9d5e-3089a0679990",
       "DisplayName": "P05.TeamworkProjects",
       "ColorIndex": 1
+    },
+    "27e79157-b4a9-4b59-8e92-1c25aaf060dd": {
+      "ProjectGuid": "27e79157-b4a9-4b59-8e92-1c25aaf060dd",
+      "DisplayName": "01.AdvertisementMessage",
+      "ColorIndex": 2
+    },
+    "6d3c8cab-7804-4e3d-b231-e3da2871d3db": {
+      "ProjectGuid": "6d3c8cab-7804-4e3d-b231-e3da2871d3db",
+      "DisplayName": "02. Articles",
+      "ColorIndex": 3
+    },
+    "f566263b-8c95-489d-9824-0628e4e2cada": {
+      "ProjectGuid": "f566263b-8c95-489d-9824-0628e4e2cada",
+      "DisplayName": "03.Articles2.0",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }
