@@ -20,7 +20,17 @@
       "ProjectGuid": "522f89be-8fbc-472e-8137-9dc12714c36c",
       "DisplayName": "P06.Courses",
       "ColorIndex": 3
+    },
+    "6e893557-2fb7-4a62-92ad-85929770e9ee": {
+      "ProjectGuid": "6e893557-2fb7-4a62-92ad-85929770e9ee",
+      "DisplayName": "01.CountCharsInString",
+      "ColorIndex": 4
+    },
+    "c05b3564-f447-438f-91a5-1a3afdd3c69d": {
+      "ProjectGuid": "c05b3564-f447-438f-91a5-1a3afdd3c69d",
+      "DisplayName": "04.Orders",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 6
 }
