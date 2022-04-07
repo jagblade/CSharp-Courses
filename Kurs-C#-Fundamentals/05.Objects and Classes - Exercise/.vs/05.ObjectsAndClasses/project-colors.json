@@ -25,7 +25,12 @@
       "ProjectGuid": "f566263b-8c95-489d-9824-0628e4e2cada",
       "DisplayName": "03.Articles2.0",
       "ColorIndex": 4
+    },
+    "46518b1d-77fd-4be3-9be3-1a1f79bc7121": {
+      "ProjectGuid": "46518b1d-77fd-4be3-9be3-1a1f79bc7121",
+      "DisplayName": "P01.CompanyRoster",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
