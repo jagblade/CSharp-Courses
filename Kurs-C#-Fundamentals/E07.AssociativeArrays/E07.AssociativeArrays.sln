@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.SoftUniParking", "P05.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.Courses", "P06.Courses\P06.Courses.csproj", "{522F89BE-8FBC-472E-8137-9DC12714C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CountCharsInString", "01.CountCharsInString\01.CountCharsInString.csproj", "{6E893557-2FB7-4A62-92AD-85929770E9EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.CountCharsInString", "01.CountCharsInString\01.CountCharsInString.csproj", "{6E893557-2FB7-4A62-92AD-85929770E9EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Orders", "04.Orders\04.Orders.csproj", "{C05B3564-F447-438F-91A5-1A3AFDD3C69D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.Orders", "04.Orders\04.Orders.csproj", "{C05B3564-F447-438F-91A5-1A3AFDD3C69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE01.Ranking", "PE01.Ranking\PE01.Ranking.csproj", "{293D04E2-F8D3-4F60-BC45-364E5EFE384F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C05B3564-F447-438F-91A5-1A3AFDD3C69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05B3564-F447-438F-91A5-1A3AFDD3C69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05B3564-F447-438F-91A5-1A3AFDD3C69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293D04E2-F8D3-4F60-BC45-364E5EFE384F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293D04E2-F8D3-4F60-BC45-364E5EFE384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293D04E2-F8D3-4F60-BC45-364E5EFE384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293D04E2-F8D3-4F60-BC45-364E5EFE384F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
