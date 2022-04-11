@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE01.DataTypes", "PE01.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE02.CenterPoint", "PE02.CenterPoint\PE02.CenterPoint.csproj", "{CF6A1B74-E2A5-443C-80A8-60B7C3FFF605}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE03.LongerLine", "PE03.LongerLine\PE03.LongerLine.csproj", "{A917215E-9423-4CB8-90A7-C0E5882CE352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE04.TribonacciSequence", "PE04.TribonacciSequence\PE04.TribonacciSequence.csproj", "{3C6D2B4F-1F74-4E9C-BB95-1FB3E539B465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{CF6A1B74-E2A5-443C-80A8-60B7C3FFF605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF6A1B74-E2A5-443C-80A8-60B7C3FFF605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF6A1B74-E2A5-443C-80A8-60B7C3FFF605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A917215E-9423-4CB8-90A7-C0E5882CE352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A917215E-9423-4CB8-90A7-C0E5882CE352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A917215E-9423-4CB8-90A7-C0E5882CE352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A917215E-9423-4CB8-90A7-C0E5882CE352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6D2B4F-1F74-4E9C-BB95-1FB3E539B465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6D2B4F-1F74-4E9C-BB95-1FB3E539B465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6D2B4F-1F74-4E9C-BB95-1FB3E539B465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6D2B4F-1F74-4E9C-BB95-1FB3E539B465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
