@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE01.DataTypes", "PE01.Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE02.CenterPoint", "PE02.CenterPoint\PE02.CenterPoint.csproj", "{CF6A1B74-E2A5-443C-80A8-60B7C3FFF605}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE03.LongerLines", "PE03.LongerLines\PE03.LongerLines.csproj", "{19C33BCE-AC06-4674-A814-B272E16F8752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE03.LongerLines", "PE03.LongerLines\PE03.LongerLines.csproj", "{19C33BCE-AC06-4674-A814-B272E16F8752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE04.TribonacciSequence", "P04.TribonacciSequence\PE04.TribonacciSequence.csproj", "{295F3D5F-CFD7-4E1A-A367-5261F55E3B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE04.TribonacciSequence", "P04.TribonacciSequence\PE04.TribonacciSequence.csproj", "{295F3D5F-CFD7-4E1A-A367-5261F55E3B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE05.MultiplicationSign", "PE05.MultiplicationSign\PE05.MultiplicationSign.csproj", "{ED989C66-2162-4376-96FF-8F2CC073FE03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{295F3D5F-CFD7-4E1A-A367-5261F55E3B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{295F3D5F-CFD7-4E1A-A367-5261F55E3B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{295F3D5F-CFD7-4E1A-A367-5261F55E3B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED989C66-2162-4376-96FF-8F2CC073FE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED989C66-2162-4376-96FF-8F2CC073FE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED989C66-2162-4376-96FF-8F2CC073FE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED989C66-2162-4376-96FF-8F2CC073FE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
