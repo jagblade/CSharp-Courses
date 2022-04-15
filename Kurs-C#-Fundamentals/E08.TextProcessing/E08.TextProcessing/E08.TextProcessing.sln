@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.StringExplosion", "P07.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.LettersChangeNumbers", "P08.LettersChangeNumbers\P08.LettersChangeNumbers.csproj", "{F6BF4DDD-C9B6-44BF-BDEB-4E954FFD76AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE01.ExtractPersonInformation", "PE01.ExtractPersonInformation\PE01.ExtractPersonInformation.csproj", "{E9DA4AFF-88D2-465D-9679-39CD3875EF37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE01.ExtractPersonInformation", "PE01.ExtractPersonInformation\PE01.ExtractPersonInformation.csproj", "{E9DA4AFF-88D2-465D-9679-39CD3875EF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE02.AsciiSumator", "PE02.AsciiSumator\PE02.AsciiSumator.csproj", "{6C33253D-F6EC-43E5-B878-987EBE59349F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E9DA4AFF-88D2-465D-9679-39CD3875EF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9DA4AFF-88D2-465D-9679-39CD3875EF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9DA4AFF-88D2-465D-9679-39CD3875EF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
