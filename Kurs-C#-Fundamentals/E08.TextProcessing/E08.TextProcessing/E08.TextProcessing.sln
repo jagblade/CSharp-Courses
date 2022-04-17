@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE01.ExtractPersonInformati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE02.AsciiSumator", "PE02.AsciiSumator\PE02.AsciiSumator.csproj", "{6C33253D-F6EC-43E5-B878-987EBE59349F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE03.TreasureFinder", "PE03.TreasureFinder\PE03.TreasureFinder.csproj", "{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C33253D-F6EC-43E5-B878-987EBE59349F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
