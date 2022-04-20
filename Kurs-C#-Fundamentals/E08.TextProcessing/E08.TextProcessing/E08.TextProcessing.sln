@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE03.TreasureFinder", "PE03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE04.MorseCode", "PE04.MorseCode\PE04.MorseCode.csproj", "{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE05.HTML", "PE05.HTML\PE05.HTML.csproj", "{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
