@@ -11,17 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.LettersChangeNumbers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE01.ExtractPersonInformation", "PE01.ExtractPersonInformation\PE01.ExtractPersonInformation.csproj", "{E9DA4AFF-88D2-465D-9679-39CD3875EF37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE02.AsciiSumator", "PE02.AsciiSumator\PE02.AsciiSumator.csproj", "{6C33253D-F6EC-43E5-B878-987EBE59349F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE02.AsciiSumator", "PE02.AsciiSumator\PE02.AsciiSumator.csproj", "{6C33253D-F6EC-43E5-B878-987EBE59349F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE03.TreasureFinder", "PE03.TreasureFinder\PE03.TreasureFinder.csproj", "{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE03.TreasureFinder", "PE03.TreasureFinder\PE03.TreasureFinder.csproj", "{CCBCCEBD-E6A5-4B80-B09E-B8D7C7A050D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE04.MorseCode", "PE04.MorseCode\PE04.MorseCode.csproj", "{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE04.MorseCode", "PE04.MorseCode\PE04.MorseCode.csproj", "{FDA6C599-2A02-45B3-BE85-96CDF077F4CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE05.HTML", "PE05.HTML\PE05.HTML.csproj", "{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PE05.HTML", "PE05.HTML\PE05.HTML.csproj", "{598F58D6-035F-46E0-9BCD-1BE0EEB19B59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.ValidUsernames", "P01.ValidUsernames\P01.ValidUsernames.csproj", "{3B82CC91-5176-4995-8D9A-DA250D025DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.ValidUsernames", "P01.ValidUsernames\P01.ValidUsernames.csproj", "{3B82CC91-5176-4995-8D9A-DA250D025DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.CharacterMultiplier", "P02.CharacterMultiplier\P02.CharacterMultiplier.csproj", "{0B583B23-4203-4603-BF2E-4B38C4C8B94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.CharacterMultiplier", "P02.CharacterMultiplier\P02.CharacterMultiplier.csproj", "{0B583B23-4203-4603-BF2E-4B38C4C8B94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.CaesarCipher", "P04.CaesarCipher\P04.CaesarCipher.csproj", "{CE84AE58-B414-4C01-B4C7-69FDDC532E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.MultiplyBigNumber", "P05.MultiplyBigNumber\P05.MultiplyBigNumber.csproj", "{4242D8B2-7997-483C-84C8-DC8C8FFE78ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{0B583B23-4203-4603-BF2E-4B38C4C8B94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B583B23-4203-4603-BF2E-4B38C4C8B94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B583B23-4203-4603-BF2E-4B38C4C8B94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE84AE58-B414-4C01-B4C7-69FDDC532E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE84AE58-B414-4C01-B4C7-69FDDC532E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE84AE58-B414-4C01-B4C7-69FDDC532E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE84AE58-B414-4C01-B4C7-69FDDC532E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4242D8B2-7997-483C-84C8-DC8C8FFE78ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4242D8B2-7997-483C-84C8-DC8C8FFE78ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4242D8B2-7997-483C-84C8-DC8C8FFE78ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4242D8B2-7997-483C-84C8-DC8C8FFE78ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
