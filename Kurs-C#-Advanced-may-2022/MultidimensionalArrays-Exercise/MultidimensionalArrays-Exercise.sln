@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.DiagonalDifferences", "P01.DiagonalDifferences\P01.DiagonalDifferences.csproj", "{78239BC1-5DFD-4C79-9206-8DA3E52249F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.SquaresInMatrix", "P2. SquaresInMatrix\P02.SquaresInMatrix.csproj", "{24A0365D-F34B-4487-8F5C-CD795F7A4070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.MatrixShuffling", "P04.MatrixShuffling\P04.MatrixShuffling.csproj", "{01EB804C-0C70-499F-9BF4-F3E828F15094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.SnakeMoves", "P05.SnakeMoves\P05.SnakeMoves.csproj", "{999AC567-A32E-463C-9A86-558063604A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.JaggedArrayManipulator", "P06.JaggedArrayManipulator\P06.JaggedArrayManipulator.csproj", "{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78239BC1-5DFD-4C79-9206-8DA3E52249F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78239BC1-5DFD-4C79-9206-8DA3E52249F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78239BC1-5DFD-4C79-9206-8DA3E52249F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78239BC1-5DFD-4C79-9206-8DA3E52249F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A0365D-F34B-4487-8F5C-CD795F7A4070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A0365D-F34B-4487-8F5C-CD795F7A4070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A0365D-F34B-4487-8F5C-CD795F7A4070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A0365D-F34B-4487-8F5C-CD795F7A4070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EB804C-0C70-499F-9BF4-F3E828F15094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EB804C-0C70-499F-9BF4-F3E828F15094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EB804C-0C70-499F-9BF4-F3E828F15094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EB804C-0C70-499F-9BF4-F3E828F15094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999AC567-A32E-463C-9A86-558063604A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999AC567-A32E-463C-9A86-558063604A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999AC567-A32E-463C-9A86-558063604A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999AC567-A32E-463C-9A86-558063604A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FFD639C-105F-4478-9F0C-0D1DFF75935E}
+	EndGlobalSection
+EndGlobal
