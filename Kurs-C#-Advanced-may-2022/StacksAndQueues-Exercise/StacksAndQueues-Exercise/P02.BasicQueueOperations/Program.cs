@@ -22,32 +22,32 @@ namespace CSharpAdvancedMay2022
                                     .Select(x => int.Parse(x)) //[1, 13, 45, 32, 4]
                                     .ToList();          // {1, 13, 45, 32, 4}
 
-            Stack<int> stack = new Stack<int>(); //нов празен стек
+            Queue<int> queue = new Queue<int>(); //нов празен стек
 
-            //N -> броят на елементите push
+            //N -> броят на елементите enqueue
             for (int i = 0; i < n; i++)
             {
-                stack.Push(numbersList[i]);
+                queue.Enqueue(numbersList[i]);
             }
 
-            //S -> броят на елементите pop
+            //S -> броят на елементите dequeue
             for (int i = 0; i < s; i++)
             {
-                stack.Pop();
+                queue.Dequeue();
             }
 
-            //X -> потърсим в стек
-            if (stack.Count == 0) //празен стек 
+            //X -> потърсим в опашка
+            if (queue.Count == 0) //празна опашка 
             {
                 Console.WriteLine(0);
             }
-            else if (stack.Contains(x))
+            else if (queue.Contains(x))
             {
                 Console.WriteLine("true");
             }
             else
             {
-                Console.WriteLine(stack.Min()); //най-малкия елемент в стека
+                Console.WriteLine(queue.Min()); //най-малкия елемент в опашка
             }
 
         }
