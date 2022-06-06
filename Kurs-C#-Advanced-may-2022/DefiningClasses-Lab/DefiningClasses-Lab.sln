@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterByAge", "FilterByAge\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional-Programming-Examples", "Functional-Programming-Examples\Functional-Programming-Examples.csproj", "{ED858354-3508-4221-A2A9-BDBD63D9EBE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car-with-Engine-and-Tires", "Car-with-Engine-and-Tires\Car-with-Engine-and-Tires.csproj", "{3AF4D1DE-C346-497E-824B-6DB490AF3899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ED858354-3508-4221-A2A9-BDBD63D9EBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED858354-3508-4221-A2A9-BDBD63D9EBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED858354-3508-4221-A2A9-BDBD63D9EBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF4D1DE-C346-497E-824B-6DB490AF3899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF4D1DE-C346-497E-824B-6DB490AF3899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF4D1DE-C346-497E-824B-6DB490AF3899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF4D1DE-C346-497E-824B-6DB490AF3899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
