@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.CustomMinFunction", "P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.FindEvensorOdds", "P04.FindEvensorOdds\P04.FindEvensorOdds.csproj", "{62C8C37F-A77D-453B-9208-B52FFEB7EB24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.AppliedArithmetics", "P05.AppliedArithmetics\P05.AppliedArithmetics.csproj", "{33E4259D-AB37-459E-906A-BA573F3A035E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.ReverseAndExclude", "P06.ReverseAndExclude\P06.ReverseAndExclude.csproj", "{34B3E95B-DD7B-497D-874B-ED0A7D2D5AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{62C8C37F-A77D-453B-9208-B52FFEB7EB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62C8C37F-A77D-453B-9208-B52FFEB7EB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62C8C37F-A77D-453B-9208-B52FFEB7EB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E4259D-AB37-459E-906A-BA573F3A035E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E4259D-AB37-459E-906A-BA573F3A035E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E4259D-AB37-459E-906A-BA573F3A035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E4259D-AB37-459E-906A-BA573F3A035E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B3E95B-DD7B-497D-874B-ED0A7D2D5AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B3E95B-DD7B-497D-874B-ED0A7D2D5AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B3E95B-DD7B-497D-874B-ED0A7D2D5AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B3E95B-DD7B-497D-874B-ED0A7D2D5AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
