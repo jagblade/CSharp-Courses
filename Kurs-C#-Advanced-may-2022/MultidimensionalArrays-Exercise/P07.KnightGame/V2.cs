@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace JaggedArray
 {
-    internal class Program
+    internal class V2
     {
         static void Main(string[] args)
         {

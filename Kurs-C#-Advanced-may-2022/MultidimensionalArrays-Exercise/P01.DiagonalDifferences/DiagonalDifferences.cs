@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Diagonals
 {
-    internal class Program
+    internal class DiagonalDifferences
     {
         static void Main(string[] args)
         {

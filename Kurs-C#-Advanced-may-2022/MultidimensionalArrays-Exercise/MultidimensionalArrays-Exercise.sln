@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.SnakeMoves", "P05.Snake
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.JaggedArrayManipulator", "P06.JaggedArrayManipulator\P06.JaggedArrayManipulator.csproj", "{E91BEC71-B0AE-4ADD-89D4-0C809B63B087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{ADC5D0A0-8086-4B69-BEE8-44B02D9C1C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{ADC5D0A0-8086-4B69-BEE8-44B02D9C1C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.3.MaximalSum", "P03.3.MaximalSum\P03.3.MaximalSum.csproj", "{889D3E56-36C1-4E66-8D6A-B089506D99FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{ADC5D0A0-8086-4B69-BEE8-44B02D9C1C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC5D0A0-8086-4B69-BEE8-44B02D9C1C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC5D0A0-8086-4B69-BEE8-44B02D9C1C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889D3E56-36C1-4E66-8D6A-B089506D99FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889D3E56-36C1-4E66-8D6A-B089506D99FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889D3E56-36C1-4E66-8D6A-B089506D99FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889D3E56-36C1-4E66-8D6A-B089506D99FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
