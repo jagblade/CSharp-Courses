@@ -10,13 +10,11 @@
         {
             string inputFilePath = @"..\..\..\text.txt";
 
-            ProcessLines(inputFilePath);
+            Console.WriteLine(ProcessLines(inputFilePath));
         }
 
-        public static void ProcessLines(string inputFilePath)
+        public static string ProcessLines(string inputFilePath)
         {
-
-
             using (StreamReader reader = new StreamReader(inputFilePath))
             {
                 int counter = -1;
@@ -36,6 +34,7 @@
                     line = reader.ReadLine();
                 }
             }
+            return inputFilePath;
         }
 
         private static string Reverse(string line)
