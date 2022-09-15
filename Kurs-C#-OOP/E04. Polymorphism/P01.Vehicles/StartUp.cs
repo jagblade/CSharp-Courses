@@ -19,9 +19,9 @@
 
             IVehicleFactory vehicleFactory = new VehicleFactory();
             Vehicle car = vehicleFactory
-                .CreateVehicle(carData[0], double.Parse(carData[1]), double.Parse(carData[2]));
+                .CreateVehicle(carData[0], double.Parse(carData[1]), double.Parse(carData[2]), double.Parse(carData[3]));
             Vehicle truck = vehicleFactory
-                .CreateVehicle(truckData[0], double.Parse(truckData[1]), double.Parse(truckData[2]));
+                .CreateVehicle(truckData[0], double.Parse(truckData[1]), double.Parse(truckData[2]), double.Parse(truckData[3]));
 
             IEngine engine = new Engine(car, truck);
             engine.Start(); //Starts business logic

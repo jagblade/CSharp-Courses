@@ -47,6 +47,8 @@ namespace P01.Vehicles.Models
 
         protected virtual double FuelConsumptionModifier { get; }
 
+        public double TankCapacity { get; }
+
         public string Drive(double distance)
         {
             double fuelNeeded = distance * this.FuelConsumption;

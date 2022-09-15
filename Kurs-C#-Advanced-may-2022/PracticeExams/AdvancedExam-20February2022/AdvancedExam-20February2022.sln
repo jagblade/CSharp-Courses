@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01.BakeryShop", "P01.BakeryShop\P01.BakeryShop.csproj", "{50302236-E8A0-4841-8AE5-91827E6F08AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.BeaverAtWork", "P02.BeaverAtWork\P02.BeaverAtWork.csproj", "{281D5F4F-0502-49B8-B49A-3A2D03E6C4C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50302236-E8A0-4841-8AE5-91827E6F08AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50302236-E8A0-4841-8AE5-91827E6F08AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50302236-E8A0-4841-8AE5-91827E6F08AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50302236-E8A0-4841-8AE5-91827E6F08AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281D5F4F-0502-49B8-B49A-3A2D03E6C4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281D5F4F-0502-49B8-B49A-3A2D03E6C4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281D5F4F-0502-49B8-B49A-3A2D03E6C4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281D5F4F-0502-49B8-B49A-3A2D03E6C4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {521C471C-8CCB-4917-9561-4A19810A84AF}
+	EndGlobalSection
+EndGlobal
